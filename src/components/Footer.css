@@ -1,0 +1,59 @@
+footer{
+    background-color: #DFDFDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+footer p{
+    color:#21325E;
+}
+footer i{
+    cursor: pointer;
+    color: #413F42;
+}
+footer i:hover{
+    color: #000000;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .logo{
+    margin: 1rem;
+
+}
+.social{
+    width:20rem ;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+.hire{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 8rem;
+    font-weight: 700;
+}
+.hire i{
+    margin: 1rem;
+}
+
+@media screen and (max-width:700px) {
+    footer{
+        flex-direction: column-reverse;
+        padding-top: 2rem;
+    }
+    .hire{
+        position: relative;
+        left: 0;
+    }
+}
+@media screen and (max-width:400px) {
+    .social{
+        margin: 1rem;
+    }
+}

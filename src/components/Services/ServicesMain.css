@@ -1,0 +1,80 @@
+.main-services-box{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-rows: repeat(auto-fit,320px);
+    grid-gap: 3rem 2rem;
+    margin: 2rem 4rem;
+    transition: all .4s;
+}
+.main-service{
+    background-color: #ECECEC;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: -1px 4px 4px 1px rgba(0,0,0,0.61);
+}
+.main-service .logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+.main-service .logo img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+.main-service .logo i{
+    width: 8rem;
+    height: 6rem;
+    padding: 2rem;
+    color: #16003B;
+}
+.main-service .name{
+    margin-top: .5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.main-service .detail{
+    width: 90%;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.type p{
+    font-weight: 600;
+    color: #3E7C17;
+}
+.money {
+    border-top: 2px solid #AAA492;
+    padding: .6rem 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.money span{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.money .available{
+    color:#125C13;
+}
+.sevice-main-head{
+    margin: 2rem 0 1rem 50vh;
+    color: #15133C;
+}
+.sevice-main-subhead{
+    margin: 2rem 0 1rem 20vh;
+    color: #F32424;
+}
+
+@media screen and (max-width:800px) {
+    .sevice-main-head{
+        margin: 2rem 3rem;
+    }
+    .sevice-main-subhead{
+        margin: 2rem 2rem;
+    }
+
+}

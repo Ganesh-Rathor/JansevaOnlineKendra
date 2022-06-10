@@ -1,0 +1,59 @@
+.SlidImage{
+    width:80%;
+    height: 30rem;
+    background-color: black;
+    background-image: url("../images/slideBar/1.png");
+    background-size: 100% 100% ;
+    box-shadow: -1px 4px 0px -1px ;
+    animation: Slider 20s  infinite ;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+    
+}
+
+@keyframes Slider {
+    0%{
+        background-image: url("../images/slideBar/1.png");
+    }
+    24%{
+        background-image: url("../images/slideBar/1.png");
+    }
+    25%{
+        background-image: url("../images/slideBar/2.png");
+    }
+    49%{
+        background-image: url("../images/slideBar/2.png");
+    }
+    50%{
+        background-image: url("../images/slideBar/3.jpg");
+    }
+    70%{
+        background-image: url("../images/slideBar/3.jpg");
+    }
+    71%{
+        background-image: url("../images/slideBar/4.png");
+    }
+    85%{
+        background-image: url("../images/slideBar/4.png");
+    }
+    86%{
+        background-image: url("../images/slideBar/5.png");
+    }
+    100%{
+        background-image: url("../images/slideBar/5.png");
+    }
+}
+@media screen and (max-width : 900px) {
+    .SlidImage{
+        width: 100%!important;;
+    }
+}
+@media screen and (max-width : 900px) {
+    .SlidImage{
+        height: 20rem!important;;
+    }
+}
+@media screen and (max-width : 900px) {
+    .SlidImage{
+        height: 15rem!important;;
+    }
+}

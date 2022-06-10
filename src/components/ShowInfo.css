@@ -1,0 +1,46 @@
+.showInfo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 75%;
+    z-index: 2;
+    position: relative;
+    bottom: 35rem;
+    background-color: #FBFBFB;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.showInfo p,li{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header button{
+    border: none;
+    padding: 1.3rem;
+    background-color: #F8F0DF;
+    border-radius: 1.2rem;
+}
+.header h1{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #212121;
+}
+.imge{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.what-is,.capability,.benefits{
+    margin: 1.3rem 0;
+    width: 90%;
+}
+.benefits h2,.what-is h2,.capability h3,.need h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
